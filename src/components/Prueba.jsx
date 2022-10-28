@@ -10,20 +10,32 @@ const prueba = () => {
           <div className="row">
             
             <div className="col-8">
-            <h3 className='text-center'>Desarrollo del proyecto</h3>
+            <h3 className='text-center'>Movimiento Oscilatorio y Ondas</h3>
             <ul className="list-group">
               <li className="list-grou´-item card">
               <p>
-                <span>Aqui va la investigacion</span><br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem distinctio exercitationem dolore reiciendis 
-                maxime quis neque sit quasi voluptatem ipsa? Odit quibusdam laboriosam sit aspernatur ad, fugiat iusto itaque nobis?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati incidunt eos perferendis corrupti quia maiores 
-                quisquam illo dicta, earum iusto ex quaerat et blanditiis doloremque sed illum, facilis delectus quo.
+                <h4 className='text-center'>Conceptos</h4>
+                A un movimiento que se repite en intervalos de tiempo iguales se lo denomina
+                movimiento periódico. Cuando una partícula, en un movimiento periódico, se mueve a
+                lo largo de una misma trayectoria de ida y vuelta respecto a una posición de equilibrio,
+                se dice que el movimiento que efectúa es oscilatorio o vibratorio
               </p>
+              <p>Podemos observar ejemplos de movimiento ondulatorio en la vida diaria, el universo
+                está lleno de movimientos de este tipo: las oscilaciones del péndulo de un reloj, las de
+                una cuerda de una guitarra, una masa sujeta a un resorte, los átomos y moléculas de una
+                estructura cristalina sólida, las ondulaciones que se producen en el agua cuando se lanza
+                una piedra a un estanque, las señales electromagnéticas generadas por emisoras de radio
+                y televisión, etc.
+              </p>
+              <img className='ondas container' src="https://www.academico.cecyt7.ipn.mx/recursos/basicas/fisica/fisica4/unidad2/ondas_archivos/image006.jpg" alt="Ondas" />
               </li>
             </ul>
             </div>
             <div className="col-4">
+              <div>
+                <h4>Julieth Marquez</h4> 
+                <h4>Darwin Garcia</h4>
+              </div>
               <form action="submin">
                 <h3 className='text-center'>Formulario</h3>
                 <input class="form-control mb-2" type="text" placeholder="Ingrese Nombre"/>

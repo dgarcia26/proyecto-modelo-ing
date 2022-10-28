@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.ondas{
+  width: 500px;
+  height: 270px;
+  text-decoration: none;
+  text-align: center;
+}
