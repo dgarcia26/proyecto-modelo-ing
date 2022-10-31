@@ -1,13 +1,22 @@
 import React from 'react';
-//import logo from './logo.svg';
-import	Prueba from './components/Prueba'
+import Nav from './components/Navegacion';
+
+//Router
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
+import Prueba from './components/Prueba';
+
 import './App.css';
 
 function App() {
+ 
   return (
-    <div>
-      <Prueba/>
-    </div>   
+    <div>      
+    <Prueba/>         
+    </div> 
+      
   );
 }
 
