@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Prueba from './components/Prueba';
 import Conceptos from './components/Conceptos';
 import Aplicacion from './components/Aplicacion';
 import Page404 from './components/Page404';
