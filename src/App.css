@@ -36,10 +36,30 @@
     transform: rotate(360deg);
   }
 }
-
-.ondas{
-  width: 500px;
-  height: 270px;
-  text-decoration: none;
-  text-align: center;
+.onda{
+  width: 150px;
+  height: 150px;
+  
 }
+.imag{
+  width: 25%;
+  height: 200px;
+  align-items: center;
+  
+}
+
+
+.boton{
+  color: black;
+}
+footer{
+  text-align: center;
+  padding-top: 240px;
+}
+
+img{
+  display:block;
+  margin:auto;
+  }
+
+  

@@ -1,38 +1,33 @@
 import React from 'react';
+import Navegacion from './Navegacion';
+//import Presentacion from './Presentacion';
 
-const prueba = () => {
+const Prueba = () => {
  
-  return (
-          
+  return (          
     <div class="container mt-5">
       
-        <h1 className='text-center'>Modelos de Ingenieria-------------</h1>
-        <h3 className='text-center'>Proyecto de Clase</h3>
+        <h1 className='text-center'>Modelos de Ingenieria</h1>
+        <h4 className='text-center'>Proyecto de Clase</h4>
+        <h6 className='text-center'>Julieth Marquez</h6> 
+        <h6 className='text-center'>Darwin Garcia</h6>
         <hr />
+        
         <div className="container">
           <div className="row">
             
-            <div className="col-8">
+            <div className="col-12">
             <h3 className='text-center'>Movimiento Oscilatorio y Ondas</h3>
+            </div>
             
-            </div>
-            <div className="col-4">
-              <div>
-                <h4>Julieth Marquez</h4> 
-                <h4>Darwin Garcia</h4>
-              </div>
-              
-            </div>
           </div>
 
 
         </div>
-        <div>
-        <footer className='text-center'>Desarrollado por Sotecpro 2022 <span>©</span></footer>    
-        </div>        
+                
     </div>
     
   )
 }
 
-export default prueba
+export default Prueba
