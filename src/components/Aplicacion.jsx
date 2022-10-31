@@ -3,15 +3,11 @@ import React from 'react'
 const Aplicacion = () => {
   return (
     <div>
-        <form action="submin">
-            <h3 className='text-center'>Formulario</h3>
-            <input class="form-control mb-2" type="text" placeholder="Ingrese Nombre"/>
-            <input class="form-control mb-2" type="number" placeholder="Ingrese Valor1"/>
-            <input class="form-control mb-2" type="number" placeholder="Ingrese Valor2"/>
-            <input class="form-control mb-2" type="number" placeholder="Ingrese Valor3"/>
-            <input class="form-control mb-2" type="number" placeholder="Ingrese Valor4"/>
-            <button class="btn btn-primary btn-block" type="submit">Calcular</button>
-        </form>
+        <h3 className='text-center'>Ejemplos</h3>
+        <hr />
+        <h4>
+          <a href="https://www.myphysicslab.com/develop/build/sims/pendulum/ComparePendulumApp-en.html" >Aplicacion</a>
+        </h4>
   </div>
   )
 }

@@ -6,6 +6,7 @@ const Page404 = () => {
          <>
 		{/* Mensaje cuando llegue a página incorrecta */}
             <p>Uy, llegaste a un mundo desconocido. Mejor regresa al inicio.</p>
+            
         </>
     </div>
   )

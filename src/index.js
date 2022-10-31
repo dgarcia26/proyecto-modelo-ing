@@ -1,15 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+
+/**conectar la app por URL */
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Prueba from './components/Prueba';
+import Conceptos from './components/Conceptos';
+import Aplicacion from './components/Aplicacion';
+import Page404 from './components/Page404';
+import Inicio from './Inicio';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter>
+    <Routes>
+                  <Route path='/' element={<App />} >
+                    <Route index
+                          element={<Inicio />}
+                    />
+                    <Route path='Conceptos' element={<Conceptos />} />
+                    <Route path='Aplicacion' element={<Aplicacion />} >
+                    </Route>
+                    <Route path='*'
+                        element={
+                          <Page404/>
+                        }>
+                    </Route>
+                  </Route>
+            </Routes>
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
