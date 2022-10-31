@@ -1,6 +1,5 @@
 import React from 'react';
-import Navegacion from './Navegacion';
-//import Presentacion from './Presentacion';
+
 
 const Prueba = () => {
  
