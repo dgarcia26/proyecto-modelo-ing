@@ -4,14 +4,12 @@ const Conceptos = () => {
   return (
     <div>
         
-
-
-        <h3 className='text-center'>Movimiento Oscilatorio y Ondas</h3>
+        <h2 className='text-center'>Movimiento Oscilatorio y Ondas</h2>
         <div className="container">
-        <ul className="list-group">
-              <li className="list-grou-item">
+                   
               <p>
-                <h4 className='text-center'>Conceptos</h4>
+                <h3 className='text-center'>Conceptos</h3>
+                <hr />
                 A un movimiento que se repite en intervalos de tiempo iguales se lo denomina
                 movimiento periódico. Cuando una partícula, en un movimiento periódico, se mueve a
                 lo largo de una misma trayectoria de ida y vuelta respecto a una posición de equilibrio,
@@ -119,8 +117,7 @@ const Conceptos = () => {
               <img src="https://lidiaconlaquimica.files.wordpress.com/2016/03/movimiento-oscilatorio.gif?w=158&h=435" alt="" />
               <span className='text-center'>Un movimiento oscilatorio es un movimiento periódico de vaivén en torno a una posición central, 
                 denominada posición de equilibrio.</span>
-              </li>
-            </ul>
+                         
             </div>
     </div>
   )

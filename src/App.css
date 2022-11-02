@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .App {
     text-align: center;
 }
@@ -54,7 +58,7 @@
 
 footer {
     text-align: center;
-    padding-top: 240px;
+    padding-top: 400px;
 }
 
 img {
@@ -69,4 +73,16 @@ img {
 
 .list-grou-item {
     text-decoration: none;
+}
+
+
+/*----Menu Hamburguesa---*/
+
+.respmenu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    max-width: 200px;
+    font-variant: small-caps;
+    text-shadow: 1px 1px black;
 }
