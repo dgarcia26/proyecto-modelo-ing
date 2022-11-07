@@ -115,7 +115,7 @@ const Conceptos = () => {
                 ser proporcional a la coordenada x. </p>
                   </div>
                   <div className="col-8">
-                  <img src="https://img.photobucket.com/albums/v376/paulogm/pendulo.gif" alt="pedulo" />
+                  <img className='pendulo' src="https://img.photobucket.com/albums/v376/paulogm/pendulo.gif" alt="pedulo" />
                   </div>
 
                 </div>

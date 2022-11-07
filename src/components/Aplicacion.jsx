@@ -9,11 +9,11 @@ const Aplicacion = () => {
         <h3 className='text-center'>Ejemplos y Aplicacion</h3>
       </div>
         <hr />
-        <div className="row container">
+        <div className="row">
         
-        <div className='col-5 container'>
-          <h3>Ejemplo</h3>
-          <h6>Un bloque atado a un resorte oscila (sin fricción) entre las posiciones extremas B y 
+        <div className='col-5'>
+          <h3 className='text-center'>Ejemplo</h3>
+          <h6 className='text-center'>Un bloque atado a un resorte oscila (sin fricción) entre las posiciones extremas B y 
             B0 indicadas en la figura. Si en 10 segundos pasa 20 veces por el punto B, determinar:</h6>
             <ul>
               <li>a. El período de oscilación.</li>
@@ -21,7 +21,7 @@ const Aplicacion = () => {
               <li>c. La amplitud.</li>
               <img className='im-ej' src="https://docplayer.es/docs-images/76/73164475/images/2-1.jpg" alt="" />
             </ul>
-            <h5>Solución</h5>
+            <h5 className='text-center'>Solución</h5>
             <ul className='separador'>
               <li>a. Cada vez que el bloque pasa por B, completa un ciclo, por tanto, 
                 en 10 segundos realiza 20 ciclos, es decir que un ciclo ocurre en un tiempo: T = 10s 20 = 1 2 s 
