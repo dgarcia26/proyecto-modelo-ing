@@ -26,8 +26,10 @@ const Navegacion = () => {
                 <li className='nav-item'>
                   <Link to="Aplicacion" class="nav-link">Aplicacion </Link> 
                 </li>
-                
-            </div>
+                <li className='nav-item'>
+                  <Link to="Simulacion" class="nav-link">Simulacion </Link> 
+                </li>
+              </div>
         </div>
       </nav>
       <main className="App-content">

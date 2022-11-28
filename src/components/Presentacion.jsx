@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Footer from './Footer'
 
 export const Presentacion = () => {
@@ -20,7 +21,7 @@ export const Presentacion = () => {
           brevemente algunas características de estas funciones trigonométricas prestando
           especial atención a los efectos observados cuando se producen variaciones en algunos
           de los diferentes parámetros.<br/>
-          <a href="/Aplicacion" >Aplicacion</a>
+          <Link to="Simulacion">Simulacion</Link>
 
       </h5>
       

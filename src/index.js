@@ -10,7 +10,9 @@ import reportWebVitals from './reportWebVitals';
 import Conceptos from './components/Conceptos';
 import Aplicacion from './components/Aplicacion';
 import Page404 from './components/Page404';
+
 import Inicio from './Inicio';
+import Simulacion from './components/Simulacion';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +27,8 @@ root.render(
                     <Route path='Conceptos' element={<Conceptos />} />
                     <Route path='Aplicacion' element={<Aplicacion />} >
                     </Route>
+                    <Route path='Simulacion' element={<Simulacion />} />
+                    
                     <Route path='*'
                         element={
                           <Page404/>
